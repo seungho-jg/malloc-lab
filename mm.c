@@ -49,6 +49,8 @@ team_t team = {
  */
 int mm_init(void)
 {
+    mem_sbrk(4*ALIGNMENT);
+    
     return 0;
 }
 
